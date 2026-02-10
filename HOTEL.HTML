@@ -1,0 +1,228 @@
+<!DOCTYPE Html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale.0">
+        <title>Hotels</title>
+        <link  rel="icon" type="image/x-icon" href="C:\Users\Barathkumar\Downloads\favicon.ico">
+        <style>
+            body{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding:15px 40px ;
+                background-color: #222;
+                color: #fff;
+            }
+            nav a {
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            nav ul {
+                list-style: none;
+                display: flex;
+                gap: 30px;
+
+            }
+            nav ul li{
+                cursor: pointer;
+            }
+            .hotel-section{
+                padding: 40px;
+                
+            }
+              .hotel{
+                display: flex;
+                gap: 30px;
+                margin-bottom: none;
+                
+              }
+              .hotel img {
+                width: 300px;
+                border-radius: 40px;
+                transition: 0.3s;
+               
+              }
+              .hotel img:hover{
+                opacity: 0.7;
+              }
+              
+              .hotel-info h2{
+                margin-top: 0;
+              }
+              .hotel-info p{
+                line-height: 1.6;
+                font-family: Arial, Helvetica, sans-serif;
+              }
+             .text {
+              text-align: center;
+              
+              font-size: 20px;
+              margin-top: 60px;
+              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              color: red;
+             }
+             .reverse{
+              flex-direction: row-reverse;
+             }
+             .book-btn{
+  display: inline-block;
+  
+  margin-top: 15px;
+  margin: 20px auto;
+  margin-left: 620px;
+  padding: 12px 28px;
+  background: #1e90ff;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: 0.3s;
+  
+  
+}
+
+.book-btn:hover{
+  background: #0b63c7;
+  transform: scale(1.05);
+  
+  
+}
+              
+              footer {
+      background: #222;
+      color: #fff;
+      padding: 20px 40px;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer-box {
+      width: 220px;
+    }
+
+    .footer-box h3 {
+      margin-bottom: 15px;
+    }
+
+    .footer-box ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-box ul li {
+      margin-bottom: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+        </style>
+
+
+
+
+
+<nav>
+    <h2>Travel</h2>
+    <ul>
+        <li> <a href="file:///C:/Users/Barathkumar/Downloads/html/MYPROJECT.HTML" class="nav a">HOME</a></li>
+        <li><a href="file:///C:/Users/Barathkumar/Downloads/html/PLACE.HTML" class = "nav a">PLACE</a></li>
+        <li><a href="file:///C:/Users/Barathkumar/Downloads/html/HOTEL.HTML" class="nav a">HOTELS</a></li>
+        <li><a href="file:///C:/Users/Barathkumar/Downloads/html/CONTACT.HTML" class="nav a">CONTACT</a></li>
+    </ul>
+</nav>
+
+<div class="hotel-section">
+  <h1>Hotels & Stay Options</h1>
+  <div class="hotel">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/1c/25/ed/fe/epass-valparai.jpg">
+    <div class="hotel-info">
+      <h2> Green Hill Resort - Valparai</h2>
+      <p>
+        A peacful stay surronded by tea estate and natures. 
+            suitable for families and couples.
+      </p>
+      <p> &#128176; Rating : 4.5/5 </p>
+           <p>&#127775; Price :<span >&#8377;</span> 2,500 per night</p>
+      
+    </div>
+  </div>
+</div>
+
+<div class="hotel-section ">
+  <h1> Hotels & Stay Options</h1>
+  <div class="hotel">
+  <img src="https://images.moneycontrol.com/static-mcnews/2025/09/20250919101010_7.jpg" >
+  <div class="hotel-info">
+  <h2>Pine Forest View Resort- Kodaikanal</h2>
+    
+    <p>A clam and refreshing stay surrounded by Pine forests and cool misty climate, perfect for families,couples,and nature lovers.</p>
+
+  <p> &#128176; Rating : 4.5/5 </p>
+           <p>&#127775; Price :<span >&#8377;</span> 3,000 per night</p>
+           <div class="text">
+<p> For Hotel booking and travel arragements, please contact us.
+  We provide safe and confortable stay options at affordable prices.
+
+</p>
+</div>
+  
+  </div>
+</div>
+  </div>
+</div>
+<a href="tel:9087331661" class="book-btn">📞 Call to Book</a>
+<footer>
+    <div class="footer-container">
+
+      <div class="footer-box">
+        <h3>Travel</h3>
+        <p>
+          Explore the world with us and enjoy unforgettable journeys.
+        </p> 
+
+      </div>  
+
+             <div class="footer-box">
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: barathkumar5996@gmail.com</li>
+          <li>Phone: +91 9087331661</li>
+          <li>India</li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Instagram</li>
+          <li>YouTube</li>
+          <li>Facebook</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Travel Website. All Rights Reserved.
+    </div>
+   </div>
+  </footer>
+
+    </head>
+</html>
